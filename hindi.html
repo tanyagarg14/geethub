@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Geet Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+  body{
+    background-image: url("hindi.jpg");
+    background-size: cover;
+  }
+li {
+  float: left;
+  color:white;
+padding: 0px 24px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:black;
+}
+#a{
+  right:05px;
+  position: absolute;
+  float:right;
+      background-color:#4CAF50;
+    }
+ #b{
+        position:absolute;
+        left:5px;
+        padding: 14px 16px;
+        height:80px;
+        width:150px;
+        top:75px;
+    }
+#c{
+  background-color:white;
+}
+#d{
+  position: absolute;
+  left: 600px;
+  top:550px;
+  padding: 14px 16px 14px 16px;
+}
+input[type="button"]
+{
+    font-size:24px;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+  img:hover {
+      animation: shake 0.5s;
+  animation-iteration-count: infinite;
+    }
+    @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(45deg); }
+  /*10% { transform: translate(-1px, -2px) rotate(-1deg); }*/
+  20% { transform: translate(-3px, 0px) rotate(60deg); }
+ /* 30% { transform: translate(3px, 2px) rotate(0deg); }*/
+  40% { transform: translate(1px, -1px) rotate(75deg); }
+/*  50% { transform: translate(-1px, 2px) rotate(-1deg); }*/
+  60% { transform: translate(-3px, 1px) rotate(90deg); }
+/*  70% { transform: translate(3px, 1px) rotate(-1deg); }
+*/  80% { transform: translate(-1px, -1px) rotate(180deg); }
+/*  90% { transform: translate(1px, 2px) rotate(0deg); }
+*/  100% { transform: translate(1px, -2px) rotate(360deg); }
+}
+   #e{
+border-radius: 30%;
+position: absolute;
+top:150px;
+left:55px;
+}#f{
+border-radius: 30%;
+position: absolute;
+top:150px;
+left:400px;
+}#g{
+border-radius: 30%;
+position: absolute;
+top:150px;
+left:700px;
+}#h{
+border-radius: 30%;
+position: absolute;
+top:150px;
+left:1000px;
+}#i{
+border-radius: 30%;
+position: absolute;
+top:150px;
+left:1300px;
+}#j{
+border-radius: 30%;
+position: absolute;
+top:450px;
+left:50px;
+}
+    #K{
+border-radius:30%;
+position: absolute;
+top:450px;
+left:1300px;
+}#L{
+border-radius: 30%;
+position: absolute;
+top:450px;
+left:400px;
+}#M{
+border-radius: 30%;
+position: absolute;
+top:450px;
+left:700px;
+}#N{
+border-radius:30%;
+position: absolute;
+top:450px;
+left:1000px;
+}
+#ze{
+position: absolute;
+top:350px;
+left:35px;
+
+}
+#be{
+position: absolute;
+top:650px;
+left:1275px;
+
+}
+#ce{
+position: absolute;
+top:350px;
+left:375px;
+
+}#de{
+position: absolute;
+top:350px;
+left:675px;
+
+}#ee{
+position: absolute;
+top:350px;
+left:975px;
+
+}#fe{
+position: absolute;
+top:350px;
+left:1275px;
+
+}#ge{
+position: absolute;
+top:650px;
+left:35px;
+
+}#he{
+position: absolute;
+top:650px;
+left:375px;
+
+}#ie{
+position: absolute;
+top:650px;
+left:675px;
+
+}#je{
+position: absolute;
+top:650px;
+left:975px;
+
+}
+</style>
+<body bgcolor="black">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"  align="center">
+  <ul class="navbar-nav">
+  <li>
+  <a  Class="nav-link"href="music.html">HOME</a></li>
+  <li>
+  <a  Class="nav-link"href="singer.html">SINGERS</a></li>
+  <li>
+  <a  Class="nav-link"href="hindi.html">HINDI</a></li>
+  <li>
+  <a  Class="nav-link"href="english.html">ENGLISH</a></li>
+  <li>
+  <a Class="nav-link" href="punjabi.html">PUNJABI</a></li>
+   <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle navbar-dark" data-toggle="dropdown" href="#">GENRE</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="sad.html">SAD</a>
+      <a class="dropdown-item" href="romantic.html">ROMANTIC</a>
+      <a class="dropdown-item" href="party.html">PARTY</a>
+    </div>
+  </li>
+ <li>
+  <a Class="nav-link" href="sites.html">RECOMMENDED SITES</a>
+  </li>
+  <li style="float:right">
+    <a  Class="nav-link" href="about.html" id="a" target="_self">ABOUT</a></li>
+  </ul></nav>
+  <div style="background-color:white;">
+    <marquee direction="right">CLICK ON THE SONG PIC TO WATCH THE VIDEO!!</marquee></div>
+  <footer>
+  <div id="c">
+    <img src="logo.jpg" alt="logo" id="b" height="100px" width="180px" >
+  </div></footer>
+  <div>
+   <a href="https://youtu.be/qWnzMwT6SKo" target="_blank"> <img src="sh1.jpg" id="e" ></a>
+ </div>
+
+
+    <div>
+    <a href="https://youtu.be/9vqtlgPkzJE" target="_blank"> <img src="sh2.jpg" id="f"></a></div>
+    <div>
+    <a href="https://youtu.be/fE82PPfPFo0" target="_blank"> <img src="sh3.jpg" id="g" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/lDPL20qk2S4" target="_blank"> <img src="sh4.jpg" id="h" height="225px" width="225px"></a></div>
+    <div>
+     <a href="https://youtu.be/v3TRtMH6er4" target="_blank"><img src="sh5.jpg" id="i" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/5ljkifaQ8o8" target="_blank"> <img src="sh6.jpg" id="j"></a></div>
+    <!-- 9 -->
+    <a href="https://youtu.be/CtgD91Ev4NU" target="_blank"> <img src="sh7.jpg" id="N"></a></div>
+     <div>
+      <!-- 10 -->
+    <a href="https://youtu.be/GtNrQy90Ih4" target="_blank"> <img src="sh8.jpg" id="K"></a></div> <div >
+    <a href="https://youtu.be/inEu2qQuGZ8" target="_blank"> <img src="sh9.jpg" id="L"></a></div> <div >
+      <!-- 8 -->
+    <a href="https://youtu.be/HeJUWx14zP0" target="_blank"> <img src="sh10.jpg" id="M"></a></div> <div> 
+     
+
+    <!-- audios -->
+    <div id="ze">
+    <audio controls style="width:250px">
+  <source src="sh1.ogg" type="audio/ogg">
+     <source src="sh1.mp3" type="audio/mpeg">
+</audio></div>
+
+ <div id="be">
+    <audio controls style="width:250px">
+  <source src="sh10.ogg" type="audio/ogg">
+     <source src="sh10.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ce">
+    <audio controls style="width:250px">
+  <source src="sh2.ogg" type="audio/ogg">
+     <source src="sh2.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="de">
+    <audio controls style="width:250px">
+  <source src="sh3.ogg" type="audio/ogg">
+     <source src="sh3.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ee">
+    <audio controls style="width:250px">
+  <source src="sh4.ogg" type="audio/ogg">
+     <source src="sh4.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="fe">
+    <audio controls style="width:250px">
+  <source src="sh5.ogg" type="audio/ogg">
+     <source src="sh5.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ge">
+    <audio controls style="width:250px">
+  <source src="sh6.ogg" type="audio/ogg">
+     <source src="sh6.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="he">
+    <audio controls style="width:250px">
+  <source src="sh7.ogg" type="audio/ogg">
+     <source src="sh7.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ie">
+    <audio controls style="width:250px">
+  <source src="sh8.ogg" type="audio/ogg">
+     <source src="sh8.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="je">
+    <audio controls style="width:250px">
+  <source src="sh9.ogg" type="audio/ogg">
+     <source src="sh9.mp3" type="audio/mpeg">
+</audio></div>
+
+
+
+
+
+
+<a href="https://youtu.be/_LImU3IJefk" target="_blank"> <img src="tulsi1.jpg" id="e1" ></a>
+ </div>
+
+
+    <div>
+    <a href="https://youtu.be/LxhEW6B-DrM" target="_blank"> <img src="tulsi2.jpg" id="f1"></a></div>
+    <div>
+    <a href="https://youtu.be/l6o6XuGDsqQ" target="_blank"> <img src="tulsi3.jpg" id="g1" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/c0W8JRqioM4" target="_blank"> <img src="tulsi4.jpg" id="h1" height="225px" width="225px"></a></div>
+    <div>
+     <a href="https://youtu.be/UY15igCWc2U" target="_blank"><img src="tulsi5.jpg" id="i1" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/R6iovtWNKo4" target="_blank"> <img src="tulsi6.jpg" id="j1"></a></div>
+    <a href="https://youtu.be/krJsyb_yf7A" target="_blank"> <img src="tulsi7.jpg" id="N1"></a></div>
+     <div>
+    <a href="https://youtu.be/3wkPgFrM36o" target="_blank"> <img src="tulsi8.jpg" id="K1"></a></div> <div >
+    <a href="https://youtu.be/7h2SsusfQmE" target="_blank"> <img src="tulsi9.jpg" id="L1"></a></div> <div >
+    <a href="https://youtu.be/FyBjKLBqZhM" target="_blank"> <img src="tulsi10.jpg" id="M1"></a></div> <div>
+     
+
+    <!-- audios -->
+    <div id="ze1">
+    <audio controls style="width:250px">
+  <source src="t1.ogg" type="audio/ogg">
+     <source src="t1.mp3" type="audio/mpeg">
+</audio></div>
+
+ <div id="be1">
+    <audio controls style="width:250px">
+  <source src="t7.ogg" type="audio/ogg">
+     <source src="t7.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ce1">
+    <audio controls style="width:250px">
+  <source src="t2.ogg" type="audio/ogg">
+     <source src="t2.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="de1">
+    <audio controls style="width:250px">
+  <source src="t3.ogg" type="audio/ogg">
+     <source src="t3.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ee1">
+    <audio controls style="width:250px">
+  <source src="t4.ogg" type="audio/ogg">
+     <source src="t4.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="fe1">
+    <audio controls style="width:250px">
+  <source src="t5.ogg" type="audio/ogg">
+     <source src="t5.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ge1">
+    <audio controls style="width:250px">
+  <source src="t6.ogg" type="audio/ogg">
+     <source src="t6.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="he1">
+    <audio controls style="width:250px">
+  <source src="t8.ogg" type="audio/ogg">
+     <source src="t8.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ie1">
+    <audio controls style="width:250px">
+  <source src="t9.ogg" type="audio/ogg">
+     <source src="t9.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="je1">
+    <audio controls style="width:250px">
+  <source src="t10.ogg" type="audio/ogg">
+     <source src="t10.mp3" type="audio/mpeg">
+</audio></div>
+
+
+
+
+
+
+
+ <a href="https://youtu.be/nCD2hj6zJEc" target="_blank"> <img src="honey1.jpg" id="e2" ></a>
+ </div>
+
+
+    <div>
+    <a href="https://youtu.be/HqUeSjsYLNU" target="_blank"> <img src="honey2.jpg" id="f2"></a></div>
+    <div>
+    <a href="https://youtu.be/x8F5dz8kv1w" target="_blank"> <img src="honey3.jpg" id="g2" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/KhnVcAC5bIM" target="_blank"> <img src="honey4.jpg" id="h2" height="225px" width="225px"></a></div>
+    <div>
+     <a href="https://youtu.be/Wd7H311MrWA" target="_blank"><img src="honey5.jpg" id="i2" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/TvngY4unjn4" target="_blank"> <img src="honey6.jpg" id="j2"></a></div>
+    <a href="https://youtu.be/NDJ-1FK1c_k" target="_blank"> <img src="honey7.jpg" id="N2"></a></div>
+     <div>
+    <a href="https://youtu.be/NbyHNASFi6U" target="_blank"> <img src="honey8.jpg" id="K2"></a></div> <div >
+    <a href="https://youtu.be/PqFMFVcCZgI" target="_blank"> <img src="honey9.jpg" id="L2"></a></div> <div >
+    <a href="https://youtu.be/NCaxSSoMA8c" target="_blank"> <img src="honey10.jpg" id="M2"></a></div> <div> 
+     
+
+    <!-- audios -->
+    <div id="ze2">
+    <audio controls style="width:250px">
+  <source src="h1.ogg" type="audio/ogg">
+     <source src="h1.mp3" type="audio/mpeg">
+</audio></div>
+
+ <div id="be2">
+    <audio controls style="width:250px">
+  <source src="h10.ogg" type="audio/ogg">
+     <source src="h10.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ce2">
+    <audio controls style="width:250px">
+  <source src="h2.ogg" type="audio/ogg">
+     <source src="h2.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="de2">
+    <audio controls style="width:250px">
+  <source src="h3.ogg" type="audio/ogg">
+     <source src="h3.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ee2">
+    <audio controls style="width:250px">
+  <source src="h4.ogg" type="audio/ogg">
+     <source src="h4.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="fe2">
+    <audio controls style="width:250px">
+  <source src="h5.ogg" type="audio/ogg">
+     <source src="h5.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ge2">
+    <audio controls style="width:250px">
+  <source src="h6.ogg" type="audio/ogg">
+     <source src="h6.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="he2">
+    <audio controls style="width:250px">
+  <source src="h7.ogg" type="audio/ogg">
+     <source src="h7.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ie2">
+    <audio controls style="width:250px">
+  <source src="h8.ogg" type="audio/ogg">
+     <source src="h8.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="je2">
+    <audio controls style="width:250px">
+  <source src="h9.ogg" type="audio/ogg">
+     <source src="h9.mp3" type="audio/mpeg">
+</audio></div>
+
+
+
+
+
+
+
+
+
+ <div>
+   <a href="https://youtu.be/ys0Ax3zibhE" target="_blank"> <img src="mi1.jpg" id="e3" ></a>
+ </div>
+
+
+    <div>
+    <a href="https://youtu.be/p8T5psA_HRY" target="_blank"> <img src="mi2.jpg" id="f3"></a></div>
+    <div>
+    <a href="https://youtu.be/UKrUivSEtOs" target="_blank"> <img src="mi3.jpg" id="g3" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/icH1SyiTk94" target="_blank"> <img src="mi4.jpg" id="h3" height="225px" width="225px"></a></div>
+    <div>
+     <a href="https://youtu.be/pB3R7Kp3PKw" target="_blank"><img src="mi5.jpg" id="i3" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/_P3R63mmakg" target="_blank"> <img src="mi6.jpg" id="j3"></a></div>
+    <!-- 9 -->
+    <a href="https://youtu.be/4WH8QR_Dqdc" target="_blank"> <img src="mi7.jpg" id="N3"></a></div>
+     <div>
+      <!-- 10 -->
+    <a href="https://youtu.be/oAIdRdT1-iw" target="_blank"> <img src="mi8.jpg" id="K3"></a></div> <div >
+    <a href="https://youtu.be/icI5SIRclqw" target="_blank"> <img src="mi9.jpg" id="L3"></a></div> <div >
+      <!-- 8 -->
+    <a href="https://youtu.be/NzpkclSyDNs" target="_blank"> <img src="mi10.jpg" id="M3"></a></div> <div>
+     
+
+    <!-- audios -->
+    <div id="ze3">
+    <audio controls style="width:250px">
+  <source src="mi1.ogg" type="audio/ogg">
+     <source src="mi1.mp3" type="audio/mpeg">
+</audio></div>
+
+ <div id="be3">
+    <audio controls style="width:250px">
+  <source src="mi10.ogg" type="audio/ogg">
+     <source src="mi10.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ce3">
+    <audio controls style="width:250px">
+  <source src="mi2.ogg" type="audio/ogg">
+     <source src="mi2.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="de3">
+    <audio controls style="width:250px">
+  <source src="mi3.ogg" type="audio/ogg">
+     <source src="mi3.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ee3">
+    <audio controls style="width:250px">
+  <source src="mi4.ogg" type="audio/ogg">
+     <source src="mi4.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="fe3">
+    <audio controls style="width:250px">
+  <source src="mi5.ogg" type="audio/ogg">
+     <source src="mi5.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ge3">
+    <audio controls style="width:250px">
+  <source src="mi6.ogg" type="audio/ogg">
+     <source src="mi6.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="he3">
+    <audio controls style="width:250px">
+  <source src="mi7.ogg" type="audio/ogg">
+     <source src="mi7.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ie3">
+    <audio controls style="width:250px">
+  <source src="mi8.ogg" type="audio/ogg">
+     <source src="mi8.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="je3">
+    <audio controls style="width:250px">
+  <source src="mi9.ogg" type="audio/ogg">
+     <source src="mi9.mp3" type="audio/mpeg">
+</audio></div>
+
+
+
+
+
+
+
+<div>
+   <a href="https://youtu.be/f3FFOBrMmdg" target="_blank"> <img src="arijit1.jpg" id="e4" ></a>
+ </div>
+
+
+    <div>
+    <a href="https://youtu.be/lr7z9lkI-1s" target="_blank"> <img src="arijit2.jpg" id="f4"></a></div>
+    <div>
+    <a href="https://youtu.be/FJ55SHCzt88" target="_blank"> <img src="arijit3.jpg" id="g4" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/6XNTtcvErZc" target="_blank"> <img src="arijit4.jpg" id="h4" height="225px" width="225px"></a></div>
+    <div>
+     <a href="https://youtu.be/_iktURk0X-A" target="_blank"><img src="arijit5.jpg" id="i4" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/zXLgYBSdv74" target="_blank"> <img src="arijit 6.jpg" id="j4"></a></div>
+     <div>
+    <a href="https://youtu.be/ImnYPjOd1Tw" target="_blank"> <img src="arijit 7.jpg" id="K4"></a></div> <div >
+    <a href="https://youtu.be/bzSTpdcs-EI" target="_blank"> <img src="arijit8.jpg" id="L4"></a></div> <div >
+    <a href="https://youtu.be/YMjfbXvBd4o" target="_blank"> <img src="arijit9.jpg" id="M4"></a></div> <div>
+    <a href="https://youtu.be/H2f7MZaw3Yo" target="_blank"> <img src="arijit10.jpg" id="N4"></a></div> 
+
+    <!-- audios -->
+    <div id="ze4">
+    <audio controls style="width:250px">
+  <source src="1.ogg" type="audio/ogg">
+     <source src="1.mp3" type="audio/mpeg">
+</audio></div>
+
+ <div id="be4">
+    <audio controls style="width:250px">
+  <source src="10.ogg" type="audio/ogg">
+     <source src="10.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ce4">
+    <audio controls style="width:250px">
+  <source src="2.ogg" type="audio/ogg">
+     <source src="2.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="de4">
+    <audio controls style="width:250px">
+  <source src="3.ogg" type="audio/ogg">
+     <source src="3.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ee4">
+    <audio controls style="width:250px">
+  <source src="4.ogg" type="audio/ogg">
+     <source src="4.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="fe4">
+    <audio controls style="width:250px">
+  <source src="5.ogg" type="audio/ogg">
+     <source src="5.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ge4">
+    <audio controls style="width:250px">
+  <source src="6.ogg" type="audio/ogg">
+     <source src="6.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="he4">
+    <audio controls style="width:250px">
+  <source src="7.ogg" type="audio/ogg">
+     <source src="7.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ie4">
+    <audio controls style="width:250px">
+  <source src="8.ogg" type="audio/ogg">
+     <source src="8.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="je4">
+    <audio controls style="width:250px">
+  <source src="9.ogg" type="audio/ogg">
+     <source src="9.mp3" type="audio/mpeg">
+</audio></div>
+
+
+
+
+
+
+<div>
+   <a href="https://youtu.be/4cSPrIC1lTo" target="_blank"> <img src="b1.jpg" id="e5" ></a>
+ </div>
+
+
+    <div>
+    <a href="https://youtu.be/IE8OD5FbU-c" target="_blank"> <img src="b2.jpg" id="f5"></a></div>
+    <div>
+    <a href="https://youtu.be/r_VQISLwLfo" target="_blank"> <img src="b3.jpg" id="g5" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/ZPSUimDt7N8" target="_blank"> <img src="b4.jpg" id="h5" height="225px" width="225px"></a></div>
+    <div>
+     <a href="https://youtu.be/Ci0WbaUH3no" target="_blank"><img src="b5.jpg" id="i5" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/PuE2JqzXz0U" target="_blank"> <img src="b6.jpg" id="j5"></a></div>
+    <!-- 9 -->
+    <a href="https://youtu.be/-wv0yyoGYLI" target="_blank"> <img src="b7.jpg" id="N5"></a></div>
+     <div>
+      <!-- 10 -->
+    <a href="https://youtu.be/9csE9i26JNI" target="_blank"> <img src="b8.jpg" id="K5"></a></div> <div >
+    <a href="https://youtu.be/bdesdebUFLE" target="_blank"> <img src="b9.jpg" id="L5"></a></div> <div >
+      <!-- 8 -->
+    <a href="https://youtu.be/UXf-jaznx80" target="_blank"> <img src="b10.jpg" id="M5"></a></div> <div>
+     
+
+    <!-- audios -->
+    <div id="ze5">
+    <audio controls style="width:250px">
+  <source src="b1.ogg" type="audio/ogg">
+     <source src="b1.mp3" type="audio/mpeg">
+</audio></div>
+
+ <div id="be5">
+    <audio controls style="width:250px">
+  <source src="b10.ogg" type="audio/ogg">
+     <source src="b10.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ce5">
+    <audio controls style="width:250px">
+  <source src="b2.ogg" type="audio/ogg">
+     <source src="b2.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="de5">
+    <audio controls style="width:250px">
+  <source src="b3.ogg" type="audio/ogg">
+     <source src="b3.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ee5">
+    <audio controls style="width:250px">
+  <source src="b4.ogg" type="audio/ogg">
+     <source src="b4.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="fe5">
+    <audio controls style="width:250px">
+  <source src="b5.ogg" type="audio/ogg">
+     <source src="b5.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ge5">
+    <audio controls style="width:250px">
+  <source src="b6.ogg" type="audio/ogg">
+     <source src="b6.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="he5">
+    <audio controls style="width:250px">
+  <source src="b7.ogg" type="audio/ogg">
+     <source src="b7.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ie5">
+    <audio controls style="width:250px">
+  <source src="b8.ogg" type="audio/ogg">
+     <source src="b8.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="je5">
+    <audio controls style="width:250px">
+  <source src="b9.ogg" type="audio/ogg">
+     <source src="b9.mp3" type="audio/mpeg">
+</audio></div>
+
+
+
+
+
+
+<div>
+   <a href="https://youtu.be/IAIGnS9BPKs" target="_blank"> <img src="d1.jpg" id="e6" ></a>
+ </div>
+
+
+    <div>
+    <a href="https://youtu.be/QCXaa1mEUK0" target="_blank"> <img src="d2.jpg" id="f6"></a></div>
+    <div>
+    <a href="https://youtu.be/S2RYBkcAkVQ" target="_blank"> <img src="d3.jpg" id="g6" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/i0_m90T04uw" target="_blank"> <img src="d4.jpg" id="h6" height="225px" width="225px"></a></div>
+    <div>
+     <a href="https://youtu.be/HYUpNJJELeE" target="_blank"><img src="d5.jpg" id="i6" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/jxN0_n6hqN8" target="_blank"> <img src="d6.jpg" id="j6"></a></div>
+    <!-- 9 -->
+    <a href="https://youtu.be/C7u6rtswjCU" target="_blank"> <img src="d7.jpg" id="N6"></a></div>
+     <div>
+      <!-- 10 -->
+    <a href="https://youtu.be/eK0IIyBlYew" target="_blank"> <img src="d8.jpg" id="K6"></a></div> <div >
+    <a href="https://youtu.be/gEV_Po7PeIY" target="_blank"> <img src="d9.jpg" id="L6"></a></div> <div >
+      <!-- 8 -->
+    <a href="https://youtu.be/jVug6gAdHuE" target="_blank"> <img src="d10.jpg" id="M6"></a></div> <div>
+     
+
+    <!-- audios -->
+    <div id="ze6">
+    <audio controls style="width:250px">
+  <source src="d1.ogg" type="audio/ogg">
+     <source src="d1.mp3" type="audio/mpeg">
+</audio></div>
+
+ <div id="be6">
+    <audio controls style="width:250px">
+  <source src="d10.ogg" type="audio/ogg">
+     <source src="d10.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ce6">
+    <audio controls style="width:250px">
+  <source src="d2.ogg" type="audio/ogg">
+     <source src="d2.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="de6">
+    <audio controls style="width:250px">
+  <source src="d3.ogg" type="audio/ogg">
+     <source src="d3.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ee6">
+    <audio controls style="width:250px">
+  <source src="d4.ogg" type="audio/ogg">
+     <source src="d4.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="fe6">
+    <audio controls style="width:250px">
+  <source src="d5.ogg" type="audio/ogg">
+     <source src="d5.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ge6">
+    <audio controls style="width:250px">
+  <source src="d6.ogg" type="audio/ogg">
+     <source src="d6.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="he6">
+    <audio controls style="width:250px">
+  <source src="d7.ogg" type="audio/ogg">
+     <source src="d7.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="ie6">
+    <audio controls style="width:250px">
+  <source src="d8.ogg" type="audio/ogg">
+     <source src="d8.mp3" type="audio/mpeg">
+</audio></div>
+ <div id="je6">
+    <audio controls style="width:250px">
+  <source src="d9.ogg" type="audio/ogg">
+     <source src="d9.mp3" type="audio/mpeg">
+</audio></div>

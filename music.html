@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Geet Hub</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+	body{
+		background-color: black;
+	}
+li {
+  float: left;
+  color:white;
+padding: 0px 24px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:black;
+}
+#a{
+	right:05px;
+	position: absolute;
+	float:right;
+  		background-color:#4CAF50;
+  	}
+ #b{
+        position: absolute;
+        left:10px;
+        padding: 14px 16px;
+  	}
+#c{
+	background-color:white;
+}
+#d{
+	position: absolute;
+	left: 600px;
+	top:550px;
+	padding: 14px 16px 14px 16px;
+}
+input[type="button"]
+{
+    font-size:24px;
+}
+
+</style>
+<body bgcolor="black">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark"  align="center">
+  <ul class="navbar-nav">
+  <li>
+  <a  Class="nav-link"href="music.html">HOME</a></li>
+  <li>
+  <a  Class="nav-link"href="singer.html">SINGERS</a></li>
+  <li>
+  <a  Class="nav-link"href="hindi.html">HINDI</a></li>
+  <li>
+  <a  Class="nav-link"href="english.html">ENGLISH</a></li>
+  <li>
+  <a Class="nav-link" href="punjabi.html">PUNJABI</a></li>
+   <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle navbar-dark" data-toggle="dropdown" href="#">GENRE</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="sad.html">SAD</a>
+      <a class="dropdown-item" href="romantic.html">ROMANTIC</a>
+      <a class="dropdown-item" href="party.html">PARTY</a>
+    </div>
+  </li>
+ <li>
+  <a Class="nav-link" href="sites.html">RECOMMENDED SITES</a>
+  </li>
+  <li style="float:right">
+    <a  Class="nav-link" href="about.html" id="a" target="_self">ABOUT</a></li>
+  </ul></nav>
+  <footer>
+  <div id="c">
+  	<img src="logo.jpg" alt="logo" id="b" height="100px" width="180px">
+  </div></footer><a href="singer.html">
+<input type="button" class="btn btn-light" value="    GROOVE NOW!!    " id="d"></a>
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="cover2.jpg" height="660px" width="1530px">
+  <img class="mySlides" src="cover3.jpg" height="660px" width="1530px">
+  <img class="mySlides" src="cover.jpg" height="660px" width="1530px">
+  <img class="mySlides" src="cover4.jpg" height="660px" width="1530px">
+  <img class="mySlides" src="cover5.jpg" height="660px" width="1530px">
+  <img class="mySlides" src="cover6.jpg" height="660px" width="1530px">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body></html>

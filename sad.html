@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Geet Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+  body{
+    background-image: url("sad.jpg");
+    background-size: cover;
+  }
+li {
+  float: left;
+  color:white;
+padding: 0px 24px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:black;
+}
+#a{
+  right:05px;
+  position: absolute;
+  float:right;
+      background-color:#4CAF50;
+    }
+ #b{
+        position: absolute;
+        left:5px;
+        padding: 14px 16px;
+        height:80px;
+        width:150px;
+        top:75px;
+    }
+#c{
+  background-color:white;
+}
+#d{
+  position: absolute;
+  left: 600px;
+  top:550px;
+  padding: 14px 16px 14px 16px;
+}
+input[type="button"]
+{
+    font-size:24px;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+  img:hover {
+      animation: shake 0.5s;
+  animation-iteration-count: infinite;
+    }
+    @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(45deg); }
+  /*10% { transform: translate(-1px, -2px) rotate(-1deg); }*/
+  20% { transform: translate(-3px, 0px) rotate(60deg); }
+ /* 30% { transform: translate(3px, 2px) rotate(0deg); }*/
+  40% { transform: translate(1px, -1px) rotate(75deg); }
+/*  50% { transform: translate(-1px, 2px) rotate(-1deg); }*/
+  60% { transform: translate(-3px, 1px) rotate(90deg); }
+/*  70% { transform: translate(3px, 1px) rotate(-1deg); }
+*/  80% { transform: translate(-1px, -1px) rotate(180deg); }
+/*  90% { transform: translate(1px, 2px) rotate(0deg); }
+*/  100% { transform: translate(1px, -2px) rotate(360deg); }
+}
+   #e{
+border-radius: 30%;
+position: absolute;
+top:150px;
+left:55px;
+}#f{
+border-radius: 30%;
+position: absolute;
+top:150px;
+left:400px;
+}#g{
+border-radius: 30%;
+position: absolute;
+top:150px;
+left:700px;
+}#h{
+border-radius: 30%;
+position: absolute;
+top:150px;
+left:1000px;
+}#i{
+border-radius: 30%;
+position: absolute;
+top:150px;
+left:1300px;
+}#j{
+border-radius: 30%;
+position: absolute;
+top:450px;
+left:50px;
+}
+    #K{
+border-radius:30%;
+position: absolute;
+top:450px;
+left:1300px;
+}#L{
+border-radius: 30%;
+position: absolute;
+top:450px;
+left:400px;
+}#M{
+border-radius: 30%;
+position: absolute;
+top:450px;
+left:700px;
+}#N{
+border-radius:30%;
+position: absolute;
+top:450px;
+left:1000px;
+}
+#ze{
+position: absolute;
+top:350px;
+left:35px;
+
+}
+#be{
+position: absolute;
+top:650px;
+left:1275px;
+
+}
+#ce{
+position: absolute;
+top:350px;
+left:375px;
+
+}#de{
+position: absolute;
+top:350px;
+left:675px;
+
+}#ee{
+position: absolute;
+top:350px;
+left:975px;
+
+}#fe{
+position: absolute;
+top:350px;
+left:1275px;
+
+}#ge{
+position: absolute;
+top:650px;
+left:35px;
+
+}#he{
+position: absolute;
+top:650px;
+left:375px;
+
+}#ie{
+position: absolute;
+top:650px;
+left:675px;
+
+}#je{
+position: absolute;
+top:650px;
+left:975px;
+
+}
+
+
+#gan{
+  position: absolute;
+  left:585px;
+  top:85px;
+}
+</style>
+<body bgcolor="black">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"  align="center">
+  <ul class="navbar-nav">
+  <li>
+  <a  Class="nav-link"href="music.html">HOME</a></li>
+  <li>
+  <a  Class="nav-link"href="singer.html">SINGERS</a></li>
+  <li>
+  <a  Class="nav-link"href="hindi.html">HINDI</a></li>
+  <li>
+  <a  Class="nav-link"href="english.html">ENGLISH</a></li>
+  <li>
+  <a Class="nav-link" href="punjabi.html">PUNJABI</a></li>
+   <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle navbar-dark" data-toggle="dropdown" href="#">GENRE</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="sad.html">SAD</a>
+      <a class="dropdown-item" href="romantic.html">ROMANTIC</a>
+      <a class="dropdown-item" href="party.html">PARTY</a>
+    </div>
+  </li>
+ <li>
+  <a Class="nav-link" href="sites.html">RECOMMENDED SITES</a>
+  </li>
+  <li style="float:right">
+    <a  Class="nav-link" href="about.html" id="a" target="_self">ABOUT</a></li>
+  </ul></nav>
+  <div style="background-color:white;">
+    <marquee direction="right">CLICK ON THE SONG PIC TO WATCH THE VIDEO!!
+ONLY TO WATCH PURPOSE!!!!!!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ONLY FOR WATCHING PURPOSE!!!!!!!</marquee></div>
+  <footer>
+  <div id="c">
+    <img src="logo.jpg" alt="logo" id="b" height="100px" width="180px">
+
+  </div></footer>
+ <a href="https://youtu.be/f3FFOBrMmdg" target="_blank"> <img src="arijit1.jpg" id="e" ></a>
+ </div>
+
+
+   
+    <a href="https://youtu.be/FJ55SHCzt88" target="_blank"> <img src="arijit3.jpg" id="f" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/6XNTtcvErZc" target="_blank"> <img src="arijit4.jpg" id="g" height="225px" width="225px"></a></div>
+    <div>
+     <a href="https://youtu.be/_iktURk0X-A" target="_blank"><img src="arijit5.jpg" id="h" height="225px" width="225px"></a></div>
+    <div>
+   
+     <div >
+    <a href="https://youtu.be/bzSTpdcs-EI" target="_blank"> <img src="arijit8.jpg" id="i"></a></div> <div >
+    <a href="https://youtu.be/YMjfbXvBd4o" target="_blank"> <img src="arijit9.jpg" id="j"></a></div> <div>
+    <a href="https://youtu.be/H2f7MZaw3Yo" target="_blank"> <img src="arijit10.jpg" id="K"></a></div> 
+    <div>
+    <a href="https://youtu.be/LxhEW6B-DrM" target="_blank"> <img src="tulsi2.jpg" id="L"></a></div>
+    <div>
+    <a href="https://youtu.be/c0W8JRqioM4" target="_blank"> <img src="tulsi4.jpg" id="M" height="225px" width="225px"></a></div>
+    <div>
+     <a href="https://youtu.be/UY15igCWc2U" target="_blank"><img src="tulsi5.jpg" id="N" height="225px" width="225px"></a></div>
+      <div >
+    <a href="https://youtu.be/NCaxSSoMA8c" target="_blank"> <img src="honey10.jpg" id="e1"></a></div> <div>
+
+
+      <div>
+    <a href="https://youtu.be/tmAXbPGOf0Q" target="_blank"> <img src="man4.jpg" id="f1" height="225px" width="225px"></a></div>
+    <div>
+     <a href="https://youtu.be/9mIMV9JbJ80" target="_blank"><img src="man5.jpg" id="g1" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/Bqt0fEBVaYA" target="_blank"> <img src="man6.jpg" id="h1"></a></div>
+    <!-- 9 -->
+    <a href="https://youtu.be/nnwU3Tl3sBc" target="_blank"> <img src="man7.jpg" id="i1"></a></div>
+      <div >
+    <a href="https://youtu.be/AVeMlyEjuzg" target="_blank"> <img src="man9.jpg" id="K1"></a></div>.................
+     <div>
+   <a href="https://youtu.be/4cSPrIC1lTo" target="_blank"> <img src="b1.jpg" id="L1" ></a>
+ </div>
+ <div>
+      <!-- 10 -->
+    <a href="https://youtu.be/9csE9i26JNI" target="_blank"> <img src="b8.jpg" id="M1"></a></div> 
+    <div>
+    <a href="https://youtu.be/QCXaa1mEUK0" target="_blank"> <img src="d2.jpg" id="N1"></a></div>
+    <div>
+    <a href="https://youtu.be/S2RYBkcAkVQ" target="_blank"> <img src="d3.jpg" id="e2" height="225px" width="225px"></a></div>
+    <div>
+     <a href="https://youtu.be/HYUpNJJELeE" target="_blank"><img src="d5.jpg" id="f2" height="225px" width="225px"></a></div>
+      <div>
+      <!-- 10 -->
+    <a href="https://youtu.be/eK0IIyBlYew" target="_blank"> <img src="d8.jpg" id="g2"></a></div>
+    </div>
+    <!-- 9 -->
+    <a href="https://youtu.be/pLkW-BGqloU" target="_blank"> <img src="p7.jpg" id="h2"></a></div>
+      <!-- 8 -->
+    <a href="https://youtu.be/NzpkclSyDNs" target="_blank"> <img src="mi10.jpg" id="i2"></a></div> 
+
+
+
+
+    <div>
+    <a href="https://youtu.be/9i1dXa13CxA" target="_blank"> <img src="a2.jpg" id="j2"></a></div>
+    
+    <div>
+     <a href="https://youtu.be/9xVp8m0fJSg" target="_blank"><img src="a5.jpg" id="K2" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/btMTtLbJLlA" target="_blank"> <img src="a6.jpg" id="L2"></a></div>
+    <!-- 9 -->
+    <a href="https://youtu.be/snb-h8zKE6M" target="_blank"> <img src="a7.jpg" id="M2"></a></div>
+     <div>
+      <!-- 10 -->
+    <a href="https://youtu.be/YjjLZpeIEN8" target="_blank"> <img src="a8.jpg" id="N2"></a></div> <div >
+    
+    <div>
+   <a href="https://youtu.be/go8_ZWFdYGs" target="_blank"> <img src="z1.jpg" id="e3" ></a>
+ </div>
+
+
+    <div>
+    <a href="https://youtu.be/1seDBXvGYcc" target="_blank"> <img src="z2.jpg" id="f3"></a></div>
+    <div>
+    <a href="https://youtu.be/zF9Zl7sAzS0" target="_blank"> <img src="z3.jpg" id="g3" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/FwOX2kfZyvI" target="_blank"> <img src="z4.jpg" id="h3" height="225px" width="225px"></a></div>
+    <div>
+     <a href="https://youtu.be/71les88LVPI" target="_blank"><img src="z5.jpg" id="i3" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/-HWAsjirC90" target="_blank"> <img src="z6.jpg" id="j3"></a></div>
+    <!-- 9 -->
+    <a href="https://youtu.be/V5rM3CSFJgo" target="_blank"> <img src="z7.jpg" id="K3"></a></div>
+     <div>
+      <!-- 10 -->
+    <a href="https://youtu.be/wkLDQJ7jvi8" target="_blank"> <img src="z8.jpg" id="L3"></a></div> <div >
+    <a href="https://youtu.be/eEa5-G3H788" target="_blank"> <img src="z9.jpg" id="M3"></a></div> <div >
+      <!-- 8 -->
+    <a href="https://youtu.be/PlNy-OJR6r8" target="_blank"> <img src="z10.jpg" id="N3"></a></div> <div>
+
+      <div >
+    <a href="https://youtu.be/inEu2qQuGZ8" target="_blank"> <img src="sh9.jpg" id="e4"></a></div> 
+     
+<div>
+   <a href="https://youtu.be/pDtWeGp7KdI" target="_blank"> <img src="h1.jpg" id="f4" ></a>
+ </div>
+<div>
+    <a href="https://youtu.be/x4KngXtOlNo" target="_blank"> <img src="h4.jpg" id="g4" height="225px" width="225px"></a></div>
+     <!-- 10 -->
+    <a href="https://youtu.be/E8rpY2FwKkY" target="_blank"> <img src="h8.jpg" id="h4"></a></div> 
+
+    <div>
+   <a href="https://youtu.be/VS1IqGm4q5Y" target="_blank"> <img src="praak1.jpg" id="i4" ></a>
+ </div>
+
+
+    
+    <div>
+    <a href="https://youtu.be/YrUqw7uspKg" target="_blank"> <img src="praak4.jpg" id="j4" height="225px" width="225px"></a></div>
+    <div>
+     <a href="https://youtu.be/ds9wPCvm4Aw" target="_blank"><img src="praak5.jpg" id="K4" height="225px" width="225px"></a></div>
+    <div>
+    <a href="https://youtu.be/0xhK7yBYWCY" target="_blank"> <img src="praak6.jpg" id="L4"></a></div>
+    <!-- 9 -->
+    <a href="https://youtu.be/sJzDgu9C55k" target="_blank"> <img src="praak7.jpg" id="M4"></a></div>
+     <div>
+      <!-- 10 -->
+    <a href="https://youtu.be/YLkdm2pe8hA" target="_blank"> <img src="praak8.jpg" id="N4"></a></div> <div >
+      
+     
+<div id="gan" style="background-color:pink;opacity:0.5;color:black;">
+    <h1>SAD SONGS</h1></div>
+
+
+
+
+
